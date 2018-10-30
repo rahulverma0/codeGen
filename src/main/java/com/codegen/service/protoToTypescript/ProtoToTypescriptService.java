@@ -8,5 +8,5 @@ package com.codegen.service.protoToTypescript;
  *
  */
 public interface ProtoToTypescriptService {
-	String convertProtoToTypeScript(String proto);
+	ProtoToTypescriptModel convertProtoToTypeScript(String proto);
 }
